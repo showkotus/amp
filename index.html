@@ -3,14 +3,23 @@
 
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Practice AMP</title>
     <link rel="canonical" href="index.html">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
 
     <script async src="https://cdn.ampproject.org/v0.js"></script>
 
 
     <style amp-custom>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+
         .top-banner {
             display: flex;
             border: 5px solid blue;
@@ -90,7 +99,7 @@
     <section class="top-banner">
         <div style="width: 50%;">
             <h1>Welcome To</h1>
-            <h1>Peter Perker World</h1>
+            <h1><span style="color: tomato;">Peter Perker</span> World</h1>
             <h3>Build Climber and Train Stopper</h3>
             <p>You might saw me jumping, climbing buildings, and stopping trains. But nobody pays me a dime for that
                 work.
