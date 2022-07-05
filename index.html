@@ -11,7 +11,10 @@
 
 
     <style amp-custom>
-
+        .top-banner {
+            display: flex;
+            border: 5px solid blue;
+        }
     </style>
 
     <style amp-boilerplate>
@@ -84,19 +87,27 @@
 </head>
 
 <body>
-    <div>
-        <h1>Welcome To</h1>
-        <h1>Peter Perker World</h1>
-        <h3>Build Climber and Train Stopper</h3>
-        <p>You might saw me jumping, climbing buildings, and stopping trains. But nobody pays me a dime for that work.
-            That's why I am learning and mastering web development. I will not stop until I become the Web Development
-            Hero.
-        </p>
-        <a href="https://programminghero1.github.io/developer-portfolio/">Hire Me</a>
-    </div>
-    <div><img
-            src="images/female/38-387173_supplement-nutrient-dietary-eating-food-free-download-nutrition-removebg-preview.png"
-            alt=""></div>
+    <section class="top-banner">
+        <div style="width: 50%;">
+            <h1>Welcome To</h1>
+            <h1>Peter Perker World</h1>
+            <h3>Build Climber and Train Stopper</h3>
+            <p>You might saw me jumping, climbing buildings, and stopping trains. But nobody pays me a dime for that
+                work.
+                That's why I am learning and mastering web development. I will not stop until I become the Web
+                Development
+                Hero.
+            </p>
+            <a href="https://programminghero1.github.io/developer-portfolio/">Hire Me</a>
+        </div>
+        <div style="width: 50%; border: 5px solid tomato;">
+            <amp-img
+                src="images/female/38-387173_supplement-nutrient-dietary-eating-food-free-download-nutrition-removebg-preview.png"
+                width="591px" height="422px" layout="responsive" alt="responsive">
+            </amp-img>
+
+        </div>
+    </section>
 
 
 </body>
